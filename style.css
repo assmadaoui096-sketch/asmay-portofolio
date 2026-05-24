@@ -11,7 +11,7 @@ h1{
 h2{
     color:#753b08;
 }
-u1{
+ul{
     list-style:none;
     padding:0;
 }
@@ -35,14 +35,14 @@ h1:hover{
 
 }
 li:hover{
-    background-color:#e98a1e;
-    color:white;
+   
+    
     transform: translateX(10px);
     transition: 0.3s;
     cursor:pointer;
 }
 a:hover{
-    background-color:#996d49;
+    background-color:#fcd3b7;
     transition: 0.3s;
 }
 nav{
@@ -60,7 +60,7 @@ nav a{color: white;
     border-radius:5px;
 }
 nav a :hover {background-color: white;
-    color:#ce914c;
+    color:#734cce;
     transition: 0.3s;
 }
 button {
@@ -178,7 +178,7 @@ nav {
         right: -100%; /* خبيه على ليمن برا الشاشة */
         height: 100vh;
         width: 70%;
-        background: #996d49;
+        background: #f0cbad;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -198,5 +198,8 @@ nav {
     gap: 20px;
     list-style: none;
     }
+}
+#navLinks{
+    background:#e4af74 ;
 }
     
